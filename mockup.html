@@ -42,25 +42,42 @@
         }
 
         .nav-link {
-            color: var(--bs-green);
+            color: #228c3a;
         }
 
         .nav-link:hover {
-            color: var(--bs-green);
+            color: #155724;
         }
 
         .nav-link.active {
-            background-color: var(--bs-green) !important;
+            background-color: #228c3a !important;
+        }
+
+        a.anchor {
+            display: block;
+            position: relative;
+            top: -63px;
+            visibility: hidden;
         }
     </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="200">
     <header class="container p-5">
-        <div class="row align-items-center">
+        <div class="row justify-content-between align-items-center">
             <img src="images/gess-rng-logo-trim.png" id="logo-big" class="col-xl-auto">
+            <div class="list-group col-12 col-md-3 mt-5">
+                <a class="list-group-item list-group-item-action" href="#sample-text">
+                    Sample text
+                </a>
+                <a class="list-group-item list-group-item-action" href="#about-us">
+                    About us
+                </a>
+                <a class="list-group-item list-group-item-action" href="#contacts">
+                    Contacts
+                </a>
+            </div>
         </div>
-        
     </header>
     <nav id="navbar" class="fixed-top backdrop-blur navbar navbar-expand-lg navbar-light">
         <div class="container w-100 px-5">
@@ -80,7 +97,9 @@
         </div>
     </nav>
     <div id="content" class="container p-4 mb-5 rounded bg-white">
-        <p id="sample-text">
+        <a id="sample-text" class="anchor"></a>
+        <h2 class="my-3">Sample text</h2>
+        <p>
             Sing long her way size. Waited end mutual missed myself the little sister one. So in pointed or chicken cheered neither spirits invited. Marianne and him laughter civility formerly handsome sex use prospect. Hence we doors is given rapid scale above am. Difficult ye mr delivered behaviour by an. If their woman could do wound on. You folly taste hoped their above are and but. 
             <br>
             Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. Me tedious so to behaved written account ferrars moments. Too objection for elsewhere her preferred allowance her. Marianne shutters mr steepest to me. Up mr ignorant produced distance although is sociable blessing. Ham whom call all lain like. 
@@ -101,7 +120,8 @@
             <br>
             Debating me breeding be answered an he. Spoil event was words her off cause any. Tears woman which no is world miles woody. Wished be do mutual except in effect answer. Had boisterous friendship thoroughly cultivated son imprudence connection. Windows because concern sex its. Law allow saved views hills day ten. Examine waiting his evening day passage proceed.
         </p>
-        <h3 id="about-us" class="mb-4 px-3">About us</h3>
+        <a id="about-us" class="anchor"></a>
+        <h2 class="my-3">About us</h2>
         <p class="bg-error">
             Sing long her way size. Waited end mutual missed myself the little sister one. So in pointed or chicken cheered neither spirits invited. Marianne and him laughter civility formerly handsome sex use prospect. Hence we doors is given rapid scale above am. Difficult ye mr delivered behaviour by an. If their woman could do wound on. You folly taste hoped their above are and but. 
             <br>
@@ -123,7 +143,8 @@
             <br>
             Debating me breeding be answered an he. Spoil event was words her off cause any. Tears woman which no is world miles woody. Wished be do mutual except in effect answer. Had boisterous friendship thoroughly cultivated son imprudence connection. Windows because concern sex its. Law allow saved views hills day ten. Examine waiting his evening day passage proceed.
         </p>
-        <h3 id="contacts" class="mb-4 px-3">Contacts</h3>
+        <a id="contacts" class="anchor"></a>
+        <h2 class="my-3">Contacts</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-sm">
                 <div class="card">
