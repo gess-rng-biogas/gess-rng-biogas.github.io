@@ -27,6 +27,10 @@ body
     background-color: rgba(255, 255, 255, 0.7)
 
 
+#info p
+    font-size: 1.4rem
+
+
 #navbar
     width: 100%
     transition-duration: 150ms
@@ -37,6 +41,11 @@ body
 
 .opaque
     opacity: 1 !important
+
+
+.invisible-md
+    @include media-breakpoint-up(md)
+        display: none
 
 
 .backdrop-blur
@@ -92,6 +101,18 @@ a.anchor
         width: 100%
         height: 100%
         object-fit: cover
+        
+    .carousel-shadow
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        box-shadow: inset 0 -15rem 10rem -10rem rgba(0, 0, 0, 0.8)
+
+        @include media-breakpoint-down(md)
+            box-shadow: inset 0 -10rem 10rem -10rem rgba(0, 0, 0, 0.8)
+
 
 .background-leaf
     position: absolute
