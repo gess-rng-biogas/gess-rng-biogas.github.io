@@ -10805,7 +10805,7 @@ body {
 }
 
 #info p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 #navbar {
@@ -10847,6 +10847,10 @@ body {
 
 .content-block {
   background-color: #fff;
+}
+
+.content-block p {
+  font-size: 14pt;
 }
 
 @media (max-width: 767.98px) {
