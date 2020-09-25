@@ -12,11 +12,7 @@ function calculateWidth(level) {
     return mobile ? level + levels : (level + levels) / 2;
 }
 
-if (mobile) {
-    leafs.forEach(leaf => {
-        leaf.style.display = "none";
-    });
-} else {
+if (!mobile) {
     const maximumWidth = calculateWidth(levels / 2 + 1);
     
     leafs.forEach(leaf => {
@@ -38,5 +34,6 @@ if (mobile) {
         leaf.style.width = `${calculateWidth(z)}vw`
         leaf.dataset.rellaxSpeed = z;
         leaf.dataset.rellaxPercentage = y/100;
+        leaf.style.display = 'inline';
     });
 }
