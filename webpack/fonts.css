@@ -1,0 +1,59 @@
+/* === Poppins - 300 */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url("./font/Poppins-Light.eot");
+	src: local('Poppins'),
+		url("./font/Poppins-Light.eot") format("embedded-opentype"),
+		url("./font/Poppins-Light.woff2") format("woff2"),
+		url("./font/Poppins-Light.woff") format("woff"),
+		url("./font/Poppins-Light.ttf") format("truetype"),
+		url("./font/Poppins-Light.svg") format("svg");
+}
+
+/* === Poppins - regular */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("./font/Poppins-Regular.eot");
+	src: local('Poppins'),
+		url("./font/Poppins-Regular.eot") format("embedded-opentype"),
+		url("./font/Poppins-Regular.woff2") format("woff2"),
+		url("./font/Poppins-Regular.woff") format("woff"),
+		url("./font/Poppins-Regular.ttf") format("truetype"),
+		url("./font/Poppins-Regular.svg") format("svg");
+}
+
+/* === Poppins - 500 */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("./font/Poppins-Medium.eot");
+	src: local('Poppins'),
+		url("./font/Poppins-Medium.eot") format("embedded-opentype"),
+		url("./font/Poppins-Medium.woff2") format("woff2"),
+		url("./font/Poppins-Medium.woff") format("woff"),
+		url("./font/Poppins-Medium.ttf") format("truetype"),
+		url("./font/Poppins-Medium.svg") format("svg");
+}
+
+/* === Poppins - 600 */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("./font/Poppins-SemiBold.eot");
+	src: local('Poppins'),
+		url("./font/Poppins-SemiBold.eot") format("embedded-opentype"),
+		url("./font/Poppins-SemiBold.woff2") format("woff2"),
+		url("./font/Poppins-SemiBold.woff") format("woff"),
+		url("./font/Poppins-SemiBold.ttf") format("truetype"),
+		url("./font/Poppins-SemiBold.svg") format("svg");
+}
